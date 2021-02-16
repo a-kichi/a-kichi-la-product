@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>a-kichi.Happy Hack</title>
     <link rel="stylesheet" href="style.css">
+    <!--slickCSS-->
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
 </head>
 
 <body>
@@ -91,10 +94,21 @@
             </div>
 
         </section>
-        <section id="images">
+
+        <section class="images" id="images">
             <h2 class="sec-title">Images</h2>
-            <div></div>
+            <div class="slideshow">
+                <ul class="slider">
+                    <li><a href="#"><img src="img/eximg.png" alt="###"></a></li>
+                    <li><a href="#"><img src="img/eximg2.png" alt="###"></a></li>
+                    <li><a href="#"><img src="img/eximg.png" alt="###"></a></li>
+                    <li><a href="#"><img src="img/eximg2.png" alt="###"></a></li>
+                    <li><a href="#"><img src="img/eximg.png" alt="###"></a></li>
+                </ul>
+            </div>
+
         </section>
+
         <section id="access">
             <h2 class="sec-title">Access</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6560.6262797845075!2d135.492449!3d34.697281!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1613411511925!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -102,4 +116,11 @@
 
     </wrapper>
     <footer>&copy; 2019 Happy Hack Inc.</footer>
-</body></html>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="slick/slick.min.js"></script>
+    <script src="slick/main.js"></script>
+</body>
+
+</html>
