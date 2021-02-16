@@ -31,6 +31,11 @@ header li a {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    transition: 0.7s;
+}
+
+header li a:hover {
+    color: #3f5dda;
 }
 
 .main-title {
@@ -53,6 +58,15 @@ header li a {
     font-size: 50px;
     padding: 50px;
     text-align: center;
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .clearfix::after {
@@ -98,10 +112,8 @@ header li a {
 }
 
 .signup-btn {
-    color: #fff;
-    text-decoration: none;
     padding: 10px 40px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .info-top .signup-btn {
