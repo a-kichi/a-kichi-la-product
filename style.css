@@ -31,6 +31,7 @@ header li a {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    font-family: futura;
     transition: 0.7s;
 }
 
@@ -51,11 +52,13 @@ header li a:hover {
 
 .main-title p {
     font-size: 30px;
+    font-family: futura;
 }
 
 .sec-title {
     color: #3f5dda;
     font-size: 50px;
+    font-family: futura;
     padding: 50px;
     text-align: center;
 }
@@ -200,9 +203,6 @@ footer {
     background-color: #fff;
     color: #3f5dda;
     text-align: center;
+    font-family: futura;
     padding: 20px;
-}
-
-footer::first-letter {
-    font-size: 20px;
 }
