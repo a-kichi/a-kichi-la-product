@@ -48,7 +48,7 @@ li a {
     font-size: 30px;
 }
 
-.content-title {
+.sec-title {
     color: #3f5dda;
     font-size: 50px;
     padding: 50px;
@@ -65,51 +65,50 @@ li a {
 
 /*introduction*/
 
-.container {
+.container-intro {
     text-align: center;
 }
 
-.content1 {
+.content-info {
     background-color: #fff;
     display: inline-block;
     overflow: hidden;
     margin: 0 auto 40px;
 }
 
-.info1 img {
-    float: left;
-}
-
-.info-text {
-    float: left;
-    margin: 20px 0px 30px 0px;
-    text-align: center;
-}
-
-.info2 {
-    clear: both;
-}
-
-
-.content1 p {
+.content-info p {
     font-size: 12px;
     width: 300px;
     margin: 0px 50px 30px;
     text-align: left;
 }
 
-.signup-button {
+.info-top img {
+    float: left;
+}
+
+.info-bottom {
+    clear: both;
+}
+
+.info {
+    float: left;
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+}
+
+.signup-btn {
     color: #fff;
     text-decoration: none;
     padding: 10px 40px;
     border-radius: 8px;
 }
 
-.info1 .signup-button {
+.info-top .signup-btn {
     background-color: #3f5dda;
 }
 
-.info2 .signup-button {
+.info-bottom .signup-btn {
     background-color: #fec000;
 }
 
@@ -120,14 +119,14 @@ li a {
     background-color: #fff;
 }
 
-.content2 {
+.container-courses {
     width: 62%;
     overflow: hidden;
     background-color: #eee;
     margin: 0px auto 50px;
 }
 
-.courses-content {
+.course {
     background-color: #fff;
     width: 180px;
     height: 280px;
@@ -137,16 +136,16 @@ li a {
     float: left;
 }
 
-.courses-content img {
+.course img {
     padding: 20px 20px 15px;
 }
 
-.courses-content p {
+.course p {
     margin-bottom: 20px;
     font-size: 12px;
 }
 
-.courses-button {
+.course-btn {
     text-decoration: none;
     font-size: 12px;
     color: #fff;
