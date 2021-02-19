@@ -34,7 +34,7 @@
     </header>
 
     <wrapper>
-        <section class="introduction" id="introduction">
+        <section class="introduction fuwat" id="introduction">
             <h2 class="sec-title">Introduction</h2>
             <div class="container-intro">
                 <div class="content-info info-top">
@@ -59,64 +59,65 @@
             </div>
         </section>
 
-        <section class="courses" id="courses">
-            <h2 class="sec-title">Courses</h2>
-            <div class="container-courses">
-                <div class="course">
-                    <img src="img/course-logo.png" alt="">
-                    <p>HTMLコース</p>
-                    <a href="#courses" class="btn course-btn">このコースを受ける</a>
-                </div>
-                <div class="course">
-                    <img src="img/course-logo.png" alt="">
-                    <p>CSSコース</p>
-                    <a href="#courses" class="btn course-btn">このコースを受ける</a>
-                </div>
-                <div class="course">
-                    <img src="img/course-logo.png" alt="">
-                    <p>UnityLコース</p>
-                    <a href="#courses" class="btn course-btn">このコースを受ける</a>
-                </div>
-                <div class="course">
-                    <img src="img/course-logo.png" alt="">
-                    <p>Rubyコース</p>
-                    <a href="#courses" class="btn course-btn">このコースを受ける</a>
-                </div>
-                <div class="course">
-                    <img src="img/course-logo.png" alt="">
-                    <p>JavaScriptコース</p>
-                    <a href="#courses" class="btn course-btn">このコースを受ける</a>
-                </div>
-                <div class="course">
-                    <img src="img/course-logo.png" alt="">
-                    <p>Swiftコース</p>
-                    <a href="#courses" class="btn course-btn">このコースを受ける</a>
-                </div>
-                <div class="course">
-                    <img src="img/course-logo.png" alt="">
-                    <p>Goコース</p>
-                    <a href="#courses" class="btn course-btn">このコースを受ける</a>
-                </div>
+        <section class="courses fuwat" id="courses">
+            <div id="particles-js">
+                <h2 class="sec-title course-title">Courses</h2>
+                <div class="container-courses">
+                    <div class="course">
+                        <img src="img/course-logo.png" alt="">
+                        <p>HTMLコース</p>
+                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                    </div>
+                    <div class="course">
+                        <img src="img/course-logo.png" alt="">
+                        <p>CSSコース</p>
+                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                    </div>
+                    <div class="course">
+                        <img src="img/course-logo.png" alt="">
+                        <p>Unityコース</p>
+                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                    </div>
+                    <div class="course">
+                        <img src="img/course-logo.png" alt="">
+                        <p>Rubyコース</p>
+                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                    </div>
+                    <div class="course">
+                        <img src="img/course-logo.png" alt="">
+                        <p>JavaScriptコース</p>
+                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                    </div>
+                    <div class="course">
+                        <img src="img/course-logo.png" alt="">
+                        <p>Swiftコース</p>
+                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                    </div>
+                    <div class="course">
+                        <img src="img/course-logo.png" alt="">
+                        <p>Goコース</p>
+                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                    </div>
 
+                </div>
             </div>
-
         </section>
 
-        <section class="images" id="images">
+        <section class="images fuwat" id="images">
             <h2 class="sec-title">Images</h2>
             <div class="slideshow">
                 <ul class="slider">
-                    <li><a href="#"><img src="img/eximg.png" alt="###"></a></li>
-                    <li><a href="#"><img src="img/eximg2.png" alt="###"></a></li>
-                    <li><a href="#"><img src="img/eximg.png" alt="###"></a></li>
-                    <li><a href="#"><img src="img/eximg2.png" alt="###"></a></li>
-                    <li><a href="#"><img src="img/eximg.png" alt="###"></a></li>
+                    <li><img src="img/eximg.png" alt="###"></li>
+                    <li><img src="img/eximg2.png" alt="###"></li>
+                    <li><img src="img/eximg.png" alt="###"></li>
+                    <li><img src="img/eximg2.png" alt="###"></li>
+                    <li><img src="img/eximg.png" alt="###"></li>
                 </ul>
             </div>
 
         </section>
 
-        <section id="access">
+        <section id="access fuwat">
             <h2 class="sec-title">Access</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6560.6262797845075!2d135.492449!3d34.697281!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1613411511925!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </section>
@@ -125,9 +126,24 @@
     <footer>&copy; 2019 Happy Hack Inc.</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.fuwat').css('visibility', 'hidden');
+            $(window).scroll(function() {
+                var windowHeight = $(window).height(),
+                    topWindow = $(window).scrollTop();
+                $('.fuwat').each(function() {
+                    var objectPosition = $(this).offset().top;
+                    if (topWindow > objectPosition - windowHeight + 200) {
+                        $(this).addClass("fuwatAnime");
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="slick/slick.min.js"></script>
-    <script src="slick/main.js"></script>
-</body>
 
-</html>
+    <script src="main.js"></script>
+</body></html>
