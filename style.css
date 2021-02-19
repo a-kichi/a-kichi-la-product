@@ -5,7 +5,7 @@
 
 body {
     width: 100%;
-    background-color: #eee;
+    /*    background-color: #eee;*/
 }
 
 header {
@@ -30,7 +30,7 @@ header li {
 header li a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     font-family: futura;
     transition: 0.7s;
 }
@@ -42,22 +42,23 @@ header li a:hover {
 .main-title {
     clear: left;
     text-align: center;
-    padding-top: 147px;
+    padding-top: 210px;
 }
 
-.main-title h1 {
-    font-size: 120px;
-    padding-bottom: 42px;
+.main-title img {
+    width: 62%;
 }
 
 .main-title p {
-    font-size: 30px;
+    color: #fff;
+    padding-top: 40px;
+    font-size: 42px;
     font-family: futura;
 }
 
 .sec-title {
     color: #3f5dda;
-    font-size: 50px;
+    font-size: 52px;
     font-family: futura;
     padding: 50px;
     text-align: center;
@@ -87,31 +88,35 @@ header li a:hover {
 }
 
 .content-info {
-    background-color: #fff;
+    /*    background-color: #eee;*/
     display: inline-block;
     overflow: hidden;
-    margin: 0 auto 40px;
+    margin: 0 auto 80px;
 }
 
 .content-info p {
     /*    font-size: 12px;*/
     width: 400px;
-    margin: 0px 50px 30px;
+    padding: 0px 50px 30px;
     text-align: left;
     line-height: 30px;
 }
 
 .info-top img {
     float: left;
+    padding-right: 40px;
 }
 
 .info-bottom {
     clear: both;
 }
 
+.info-bottom img {
+    padding-left: 40px;
+}
+
 .info {
     float: left;
-    margin: 20px 0px 30px 0px;
     text-align: center;
 }
 
@@ -122,6 +127,8 @@ header li a:hover {
 .signup-btn {
     padding: 10px 40px;
     border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .info-top .signup-btn {
@@ -149,26 +156,30 @@ header li a:hover {
 .container-courses {
     position: absolute;
     top: 150px;
-    width: 62%;
-    overflow: hidden;
+    width: 90%;
+    /*    overflow: hidden;*/
     /*    background-color: #eee;*/
     /*    margin: 0px auto 50px;*/
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .course {
     background-color: #fff;
-    width: 180px;
-    height: 280px;
+    width: 250px;
+    height: 350px;
     text-align: center;
     border-radius: 10px;
-    margin: 20px 20px;
-    float: left;
+    margin: 10px 10px;
+    /*    float: left;*/
 }
 
 .course img {
-    padding: 20px 20px 15px;
+    padding: 30px 20px 15px;
+    width: 100px;
 }
 
 .course p {
@@ -187,8 +198,9 @@ header li a:hover {
 
 /*images*/
 .images {
-    overflow: hidden;
+    height: 450px;
     /*    background-color: #ddd;*/
+
 }
 
 .slider {
@@ -239,7 +251,7 @@ footer {
 /* ---- particles.js container ---- */
 #particles-js {
     width: 100%;
-    height: 900px;
+    height: 940px;
     background-color: #d6e5f9;
     background-image: url("");
     background-repeat: no-repeat;
