@@ -143,7 +143,7 @@ header li a:hover {
 
 #courses {
     position: relative;
-    height: 900px;
+    /*    height: 900px;*/
 }
 
 .course-title {
@@ -155,7 +155,7 @@ header li a:hover {
 
 .container-courses {
     position: absolute;
-    top: 150px;
+    top: 160px;
     width: 90%;
     /*    overflow: hidden;*/
     /*    background-color: #eee;*/
@@ -165,43 +165,98 @@ header li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .course {
     background-color: #fff;
-    width: 250px;
-    height: 350px;
+    width: 240px;
+    height: 340px;
     text-align: center;
     border-radius: 10px;
-    margin: 10px 10px;
+    margin: 20px 10px;
     /*    float: left;*/
+    display: flex;
+    flex-direction: column;
+
 }
 
 .course img {
-    padding: 30px 20px 15px;
+    padding: 40px 20px 15px;
     width: 100px;
+    flex-grow: 1;
 }
 
-.course p {
+/*
+.html img{
     margin-bottom: 20px;
-    font-size: 12px;
+}
+
+.css img{
+    margin-bottom: 4px;
+}
+*/
+
+.course p {
+    margin-bottom: 30px;
+    color: #203c5e;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .course-btn {
+    margin: 0px 30px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     background-color: #fec000;
-    padding: 10px 20px;
+    padding: 12px 30px;
     border-radius: 10px;
+    font-weight: 700;
 }
+
+.course-img {
+    height: 200px;
+}
+
+.html .btn {
+    background-color: #f16529;
+}
+
+.css .btn {
+    background-color: #29a9df;
+}
+
+.unity .btn {
+    background-color: #333333;
+}
+
+.ruby .btn {
+    background-color: #ff5252;
+}
+
+.js .btn {
+    background-color: #ffd700;
+}
+
+.swift .btn {
+    background-color: #fe7536;
+}
+
+.go .btn {
+    background-color: #73cedd;
+}
+
 
 /*images*/
 .images {
+    position: relative;
     height: 450px;
     /*    background-color: #ddd;*/
-
 }
+
+
+.images .sec-title {}
 
 .slider {
     width: 80%;
@@ -212,7 +267,7 @@ header li a:hover {
     width: 100%;
 }
 
-.slideshow {}
+/*.slideshow {}*/
 
 
 
@@ -251,7 +306,7 @@ footer {
 /* ---- particles.js container ---- */
 #particles-js {
     width: 100%;
-    height: 940px;
+    height: 960px;
     background-color: #d6e5f9;
     background-image: url("");
     background-repeat: no-repeat;
