@@ -10,9 +10,9 @@ body {
 
 header {
     width: 100%;
-    height: 700px;
-    background-image: url(img/main-visual.png);
-    background-size: cover;
+    height: 760px;
+    /*    background-image: url(img/main-visual.png);*/
+    /*    background-size: cover;*/
 }
 
 header ul {
@@ -94,10 +94,11 @@ header li a:hover {
 }
 
 .content-info p {
-    font-size: 12px;
-    width: 300px;
+    /*    font-size: 12px;*/
+    width: 400px;
     margin: 0px 50px 30px;
     text-align: left;
+    line-height: 30px;
 }
 
 .info-top img {
@@ -112,6 +113,10 @@ header li a:hover {
     float: left;
     margin: 20px 0px 30px 0px;
     text-align: center;
+}
+
+.content-info img {
+    width: 500px;
 }
 
 .signup-btn {
@@ -215,6 +220,20 @@ footer {
     text-align: center;
     font-family: futura;
     padding: 20px;
+}
+
+/* ---- bgswitcher container ---- */
+
+.bgimg-slider {
+    /*
+    width: 100vw;
+    height: 100vh;
+*/
+    background-position: center center;
+    background-size: cover;
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    justify-content: center;
 }
 
 /* ---- particles.js container ---- */
