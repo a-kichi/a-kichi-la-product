@@ -139,6 +139,11 @@ header li a:hover {
     background-color: #fec000;
 }
 
+#infoimgsp {
+    display: none;
+    1
+}
+
 /*Corse*/
 
 #courses {
@@ -215,6 +220,10 @@ header li a:hover {
     font-weight: 700;
 }
 
+.btn br {
+    display: none;
+}
+
 .course-img {
     height: 200px;
 }
@@ -254,9 +263,6 @@ header li a:hover {
     height: 450px;
     /*    background-color: #ddd;*/
 }
-
-
-.images .sec-title {}
 
 .slider {
     width: 80%;
@@ -355,4 +361,162 @@ footer {
         -ms-transform: translateY(0);
         transform: translateY(0);
     }
+}
+
+
+@media all and (max-width: 500px) {
+
+    header nav {
+        display: none;
+    }
+
+    .bgimg-slider {
+
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    .main-title {
+        clear: left;
+        text-align: center;
+        position: absolute;
+        top: 130px;
+    }
+
+    .main-title img {
+        width: 70%;
+    }
+
+    .main-title p {
+        font-size: 16px;
+    }
+
+    .sec-title {
+
+        font-size: 30px;
+        font-family: futura;
+        padding: 30px 0px;
+
+        text-align: center;
+    }
+
+    /*intro*/
+
+    .content-info {
+        /*        background-color: #eee;*/
+        margin: 0;
+    }
+
+    .content-info img {
+        width: 90vw;
+    }
+
+    .info-top {
+        height: 620px;
+    }
+
+    .info-bottom {
+        height: 650px;
+    }
+
+    .info-top img {
+        padding-right: 0px;
+        float: none;
+        margin: 0 auto 30px;
+    }
+
+    .info-bottom img {
+        padding-left: 0px;
+        margin: 0px auto 30px;
+    }
+
+    .content-info p {
+        font-size: 13px;
+        line-height: 24px;
+        width: 80%;
+        line-height: 28px;
+        padding-bottom: 40px;
+    }
+
+    .signup-btn {
+        padding: 12px 50px;
+        font-size: 16px;
+    }
+
+    #infoimgsp {
+        display: inline-block;
+    }
+
+    #infoimgpc {
+        display: none;
+    }
+
+
+    /*courses*/
+    #courses {
+        position: relative;
+        /*height: 1000px;*/
+    }
+
+
+    .course-title {
+        width: 100%;
+        padding: 50px 0px;
+        font-size: 30px;
+    }
+
+    .container-courses {
+        width: 100%;
+        left: 0%;
+        transform: translateX(0%);
+    }
+
+    .course {
+        background-color: #fff;
+        height: 200px;
+        width: 40vW;
+        margin: 12px 10px;
+    }
+
+    .course img {
+        padding: 30px 20px 0px;
+        width: 50px;
+        width: 50px;
+    }
+
+    .course p {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .course-btn {
+        margin: 0px 12px 10px;
+        font-size: 8px;
+        padding: 2px 23px;
+    }
+
+    .btn br {
+        display: inline;
+    }
+
+
+    /*images*/
+    .images {
+        height: 370px;
+    }
+
+
+    /*access*/
+
+    iframe {
+        width: 100%;
+        height: 290px;
+    }
+
+    #particles-js {
+        height: 1100px;
+    }
+
+
 }

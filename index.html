@@ -10,6 +10,8 @@
     <meta property="og:image" content="https://a-kichi-happyhack.netlify.app/public/ogpimg.png">
     <link rel="shortcut icon" href="public/favicon.ico">
 
+    <meta name="viewport" content="width=device-width,intial-scale=1.0,minimum-scale=1.0">
+
 
     <link rel="stylesheet" href="style.css">
     <!--slickCSS-->
@@ -48,13 +50,14 @@
                 </div>
 
                 <div class="content-info info-bottom">
+                    <img src="img/introduction_002.jpg" alt="" id="infoimgsp">
                     <div class="info">
                         <p>Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。<br>
                             WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。<br>
                             自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。</p>
                         <a href="#introduction" class="btn signup-btn" id="">会員登録</a>
                     </div>
-                    <img src="img/introduction_002.jpg" alt="">
+                    <img src="img/introduction_002.jpg" alt="" id="infoimgpc">
                 </div>
             </div>
         </section>
@@ -68,42 +71,42 @@
                             <img src="img/html.png" alt="">
                         </div>
                         <p>HTMLコース</p>
-                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                        <a href="#courses" class="btn course-btn">このコースを<br>受ける</a>
                     </div>
                     <div class="course css">
                         <div class="course-img">
                             <img src="img/css.png" alt="">
                         </div>
                         <p>CSSコース</p>
-                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                        <a href="#courses" class="btn course-btn">このコースを<br>受ける</a>
                     </div>
                     <div class="course unity">
                         <div class="course-img">
                             <img src="img/unity.png" alt="">
                         </div>
                         <p>Unityコース</p>
-                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                        <a href="#courses" class="btn course-btn">このコースを<br>受ける</a>
                     </div>
                     <div class="course ruby">
                         <div class="course-img">
                             <img src="img/ruby.png" alt="">
                         </div>
                         <p>Rubyコース</p>
-                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                        <a href="#courses" class="btn course-btn">このコースを<br>受ける</a>
                     </div>
                     <div class="course js">
                         <div class="course-img">
                             <img src="img/js.png" alt="">
                         </div>
                         <p>JavaScriptコース</p>
-                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                        <a href="#courses" class="btn course-btn">このコースを<br>受ける</a>
                     </div>
                     <div class="course swift">
                         <div class="course-img">
                             <img src="img/swift.png" alt="">
                         </div>
                         <p>Swiftコース</p>
-                        <a href="#courses" class="btn course-btn">このコースを受ける</a>
+                        <a href="#courses" class="btn course-btn">このコースを<br>受ける</a>
                     </div>
                     <div class="course go">
                         <div class="course-img">
@@ -143,7 +146,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- bgswitcher-script -->
-    <script src="jquery.bgswitcher.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
     <script>
         jQuery(function($) {
             $('.bgimg-slider').bgSwitcher({
@@ -151,10 +154,9 @@
                 effect: "fade",
                 easing: "linear",
                 interval: 7000,
-                duration: 500
+                duration: 500,
             });
         });
-
     </script>
 
     <!-- fuwatanimation script -->
@@ -172,14 +174,11 @@
                 });
             });
         });
-
     </script>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="slick/slick.min.js"></script>
 
-    <script src="main.js"></script>
-</body>
-
-</html>
+    <script src="js/main.js"></script>
+</body></html>

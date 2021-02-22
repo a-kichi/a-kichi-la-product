@@ -1,11 +1,28 @@
-$('.slider').slick({
-    autoplay: false,
-    autoplaySpeed: 5000,
-    dots: true,
-    arrows: true,
-    slidesToShow: 4,
-    slidesToScroll: 1
-});
+function switchByWidth() {
+    if (window.matchMedia('(max-width: 500px)').matches) {
+        $('.slider').slick({
+            autoplay: false,
+            autoplaySpeed: 5000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    } else if (window.matchMedia('(min-width:501px)').matches) {
+        $('.slider').slick({
+            autoplay: false,
+            autoplaySpeed: 5000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 4,
+            slidesToScroll: 1
+        });
+    }
+}
+
+//ロードとリサイズの両方で同じ処理を付与する
+window.onload = switchByWidth;
+window.onresize = switchByWidth;
 
 particlesJS("particles-js", {
     "particles": {
