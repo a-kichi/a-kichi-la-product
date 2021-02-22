@@ -431,12 +431,16 @@ footer {
         margin: 0px auto 30px;
     }
 
+    .info {
+        margin: 0 auto;
+    }
+
     .content-info p {
         font-size: 13px;
         line-height: 24px;
         width: 80%;
         line-height: 28px;
-        padding-bottom: 40px;
+        padding: 0px 0px 40px 10%;
     }
 
     .signup-btn {
